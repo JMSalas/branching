@@ -58,7 +58,8 @@ img {
 form {
   padding: 30px;
 }
-  
+
+/*CSS Footer*/
 .btn {
   outline: none;
   border: none;
@@ -73,7 +74,7 @@ form {
 }
   
 .btn a {
-    color: white;
+  color: white;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
   font-weight: 300;
@@ -90,4 +91,8 @@ form {
 .btn:active {
   box-shadow: none;
   top: 6px; 
-} 
+}
+
+footer img {
+  width: 200px;
+}
