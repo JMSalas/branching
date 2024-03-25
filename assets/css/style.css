@@ -1,62 +1,58 @@
-body {
-  background: #342E37;
+/* Reset*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-.container {
-  padding-top: 30px;
+body {
+  background: #342E37;  
+  font-family: 'Space Mono', monospace;
+  color: white;
+}
+
+.box {
+  width: 960px;
+  margin: auto;
 }
 
 /* CSS Navbar */
-nav {
-  font-family: 'Space Mono', monospace;
-  color: white;
-  border: 1px solid black;
-}
-
-nav div {
-  border: 1px solid black;
-}
-
-.flexbox {
+nav .box {
   display: flex;
-  width: 960px;
-  margin: auto;
   justify-content: space-between;
   align-items: center;
 }
 
 #img_nav {
   width: 200px;
-  border: 1px solid black;
   margin-left: 0px;
 }
 
 nav ul {
-    list-style: none;
+  list-style: none;
 }
 
 nav ul li {
-    display: inline;
+  display: inline;
 }
 /* Fin CSS Navbar */
-  
-.headerbox {
-  width: 960px;
+
+/*CSS Header*/
+header {
+  background-color: white;
+}
+
+header .box {
   background-color: rgb(111, 0, 255);
-  margin: auto;
 }
 
 h1 {
-  color: #fff;
-  font-family: 'Space Mono', monospace;
   font-size: 3rem;
   text-align: center;
   font-weight: 300;
 }
 
 header h2 {
-  color: white;
-  font-family: 'Space Mono', monospace;
   text-align: center;
   font-weight: 300;
 }
@@ -69,11 +65,12 @@ img {
 }
 
 /*CSS Section*/
-#sectionbox {
-  color: #fff;
-  font-family: 'Space Mono', monospace;
-  width: 960px;
-  margin: auto;
+section {
+  background-color: antiquewhite;
+}
+
+section .box {
+  background-color: brown;
 }
 
 article {
@@ -88,10 +85,6 @@ article {
   background-color:  rgb(59, 59, 59);
 }
 /*End CSS Section*/
-
-form {
-  padding: 30px;
-}
 
 /*CSS Footer*/
 .btn {
@@ -130,3 +123,4 @@ form {
 footer img {
   width: 200px;
 }
+/*End CSS Footer*/
