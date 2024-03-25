@@ -21,6 +21,17 @@ img {
   margin: 0 auto;
 }
 
+#sectionbox {
+  color: #fff;
+  font-family: 'Space Mono', monospace;
+  width: 960px;
+  margin: auto;
+}
+
+article {
+  text-align: justify;
+}
+
 form {
   padding: 30px;
 }
