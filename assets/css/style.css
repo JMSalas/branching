@@ -21,6 +21,7 @@ img {
   margin: 0 auto;
 }
 
+/*CSS Section*/
 #sectionbox {
   color: #fff;
   font-family: 'Space Mono', monospace;
@@ -31,6 +32,15 @@ img {
 article {
   text-align: justify;
 }
+
+.impar {
+  background-color: gray;
+}
+
+.par {
+  background-color:  rgb(59, 59, 59);
+}
+/*End CSS Section*/
 
 form {
   padding: 30px;
