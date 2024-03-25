@@ -40,10 +40,23 @@ nav ul li {
 }
 /* Fin CSS Navbar */
   
+.headerbox {
+  width: 960px;
+  background-color: rgb(111, 0, 255);
+  margin: auto;
+}
+
 h1 {
   color: #fff;
   font-family: 'Space Mono', monospace;
   font-size: 3rem;
+  text-align: center;
+  font-weight: 300;
+}
+
+header h2 {
+  color: white;
+  font-family: 'Space Mono', monospace;
   text-align: center;
   font-weight: 300;
 }
