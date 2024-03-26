@@ -21,29 +21,41 @@ nav .box {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 #img_nav {
-  width: 200px;
-  margin-left: 0px;
+  width: 150px;
+  margin-left: 15px;
 }
 
 nav ul {
   list-style: none;
+  margin-right: 20px;
 }
 
 nav ul li {
   display: inline;
+  margin-left: 30px;
+  font-weight: 300;
 }
-/* Fin CSS Navbar */
 
-/*CSS Header*/
+nav a {
+  text-decoration: none;
+  color: inherit;  
+}
+/* End CSS Navbar */
+
+/* CSS Header */
 header {
-  background-color: white;
+  background-color: antiquewhite;
 }
 
 header .box {
-  background-color: rgb(111, 0, 255);
+  background-color: #676264;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 h1 {
@@ -57,14 +69,15 @@ header h2 {
   font-weight: 300;
 }
   
-img {
+header img {
   max-width: 40%;
   padding: 20px;
   display: block;
   margin: 0 auto;
 }
+/* End CSS Header */
 
-/*CSS Section*/
+/* CSS Section */
 section {
   background-color: antiquewhite;
 }
@@ -75,18 +88,28 @@ section .box {
 
 article {
   text-align: justify;
+  padding: 20px;
+}
+
+article p {
+  padding-top: 20px;
 }
 
 .impar {
-  background-color: gray;
+  background-color: #463f49;
 }
 
 .par {
-  background-color:  rgb(59, 59, 59);
+  background-color: #676264;
 }
-/*End CSS Section*/
+/* End CSS Section */
 
-/*CSS Footer*/
+/* CSS Footer */
+footer {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
 .btn {
   outline: none;
   border: none;
@@ -122,5 +145,7 @@ article {
 
 footer img {
   width: 200px;
+  margin: 0 auto;
+  display: block;
 }
-/*End CSS Footer*/
+/* End CSS Footer */
